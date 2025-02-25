@@ -1,10 +1,22 @@
-
-ol{
-   
+*{
+    margin: 0;
 }
-li:first-child{
 
-
-
-}
+.color{
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    padding-top: 15vw;
   
+}
+.header{
+    width: 30vw;
+    height: 35vh;
+    border: 5px,solid,red;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: white;
+  
+}
