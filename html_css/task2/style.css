@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+
+
+.image{
+    background-image: url(https://picsum.photos/id/71/400);
+    background-size: cover;
+    width: 600px;
+    height: 500px;
+    position: relative;
+}
+.image2{
+    position: absolute;
+   background-color: rgba(0, 0, 0, 0.6);
+   inset: 0;
+ 
+}
