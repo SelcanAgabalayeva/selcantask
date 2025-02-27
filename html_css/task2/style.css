@@ -5,15 +5,27 @@ body{
 
 
 .image{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+ 
+
+}
+.image1,.image2{
     background-image: url(https://picsum.photos/id/71/400);
+    width: 400px;;
+    height: 400px;
     background-size: cover;
-    width: 600px;
-    height: 500px;
-    position: relative;
+    background-position: right;
+
 }
 .image2{
+    position: relative;
+}
+.image2::after{
     position: absolute;
-   background-color: rgba(0, 0, 0, 0.6);
-   inset: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    inset: 0;
  
 }
